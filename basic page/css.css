@@ -1,0 +1,43 @@
+
+@font-face{
+    font-family: 'Alta';
+    src: url(Alta_Typeface/Alta_caption.otf),
+    url(Alta_Typeface/light.otf), 
+    url(Alta_Typeface/Alta_regular.otf);
+}
+body{
+    font-family: 'Alta';
+    padding: 150px;
+}
+
+h1{
+    background-image: url('./pattern.jpeg');
+    font-size:100px;
+    color: khaki;
+    text-align: center;
+}
+
+h2{
+font-size: 32px;
+color:white;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.lightcoral{
+    background: lightcoral;
+}
+
+.skyblue{
+    background: lightblue;
+}  
+
+.springgreen{
+    background: springgreen;
+}
+
+.blue{
+    color: blue;
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
+body{
+    background-color: rgb(219, 219, 219);;
+}
+
+.color, .fonts, .text{
+    border: 3px solid rgb(129, 127, 127);
+}
+.color-container, .fonts-container, .text-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.color-scheme{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+}
+.color1{
+    background: rgb(165, 4, 4);
+}
+.color2{
+    background: rgb(195, 91, 91);
+ 
+}
+.color3{
+    background: rgb(235, 175, 175);
+}
+.color4{
+    background: rgb(82, 140, 167);
+}
+.color5{
+    background: rgb(179, 68, 184);
+}
+.color6{
+    background: rgb(238, 184, 36);
+}
+
+.header, .color, .fonts, .text{
+    margin: 15px;
+    padding:20px;
+}
+.font-family{
+    text-decoration:underline;
+}
+
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+    color: rgb(82, 112, 156);
+}
+
+.font-weight-700{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.font-weight-500{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.font-weight-400{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.font-family1{
+    font-family: 'Raleway', sans-serif;
+    font-size:26px;
+
+}
+
+.font-family2{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+}
+
+.font-family3{
+    font-family: 'Quicksand', sans-serif;
+    font-size:14px;
+}

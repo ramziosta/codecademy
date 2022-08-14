@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  background-color: rgb(0, 0, 0);
+  color: seashell;
+  opacity: 0.9;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  height: 69px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  border-bottom: 1px solid seashell;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 1;
+}
+
+.logo {
+  height: 50px;
+  margin: 10px;
+  margin-right: auto;
+}
+
+nav {
+  margin: 10px;
+}
+
+li {
+  margin-right: 10px;
+  display: inline-block;
+  list-style-type: none;
+}
+
+li a {
+  color: seashell;
+}
+
+.mission {
+  margin: 0 auto;
+}
+
+.img-landing {
+  margin: 70px 350px;
+  width: 1200px;
+  height: 700px;
+  opacity: 0.7;
+}
+
+.text-block {
+  background-color: rgba(0, 0, 0, 0.83);
+  position: absolute;
+  width: 1300px;
+  height: 150px;
+  top: 310px;
+  left: 340px;
+  text-align: center;
+}
+
+.month {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.text-block-month {
+  text-align: center;
+}
+
+.image-block {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image-block2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.tea-block {
+  width: 300px;
+  text-align: center;
+}
+
+.img-mid {
+  max-width: 300px;
+  height: 200px;
+  opacity: 0.7;
+}
+
+/* 
+fix image
+*/
+.bottom {
+    background-image: url("./img-locations-background.jpeg" );
+  width: 1200px;
+  height: 600px;
+  margin: 90px auto;
+}
+.image-location {
+  opacity: 0.7;
+}
+
+.bottom h2 {
+    position: relative;
+ top: 30px;
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.675);
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.location-container {
+    position: relative;
+    top: 30px;
+    margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.locations {
+  position: relative;
+  background-color: black;
+  width: 300px;
+  text-align: center;
+  height: 250px;
+  padding-top: 10px;
+}
+
+footer {
+  text-align: center;
+}
+h5 {
+  margin-left: 20px;
+}
