@@ -1,3 +1,6 @@
+@import url('http://fonts.cdnfonts.com/css/gtek-nova');
+@import url('http://fonts.cdnfonts.com/css/amiko');
+
 nav {
   position: fixed;
   width: 100%;
@@ -20,6 +23,7 @@ ul {
 }
 
 li {
+  font-family: 'Gtek Nova', sans-serif;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -40,6 +44,7 @@ a {
 }
 
 .contact-button button {
+  font-family: 'Gtek Nova', sans-serif;
   color: rgb(250, 250, 250);
   background: none;
   font-size: 20px;
@@ -75,27 +80,30 @@ video {
 .main-info {
   width: 50%;
   position: absolute;
-  top: 20rem;
+  top: 15rem;
   margin: 5rem;
   padding: 2rem;
 }
 
 .main-title {
+  font-family: 'Gtek Nova', sans-serif;
   color: rgb(254, 179, 4);
   font-size: 4rem;
 }
 .main-info p {
+  font-family: 'Amiko', sans-serif;
   color: white;
   font-size: 2rem;
 }
 
 .main-info button {
+  font-family: 'Gtek Nova', sans-serif;
   color: rgb(255, 255, 255);
+  background: none;
   font-size: 30px;
   padding: 20px;
   margin: 10px;
   border-radius: 12px;
-  background-color: rgb(254, 179, 4);
   border: 1px solid rgb(254, 179, 4);
   font-weight: 700;
 }
@@ -113,7 +121,7 @@ video {
   }
 
   .main-info {
-    top: 17rem;
+    top: 12rem;
     margin: 0.1rem;
     padding: 1rem;
   }
@@ -123,18 +131,18 @@ video {
   }
 
   .main-info p {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
 
   .main-info button {
-    font-size: 10px;
-    padding: 2px;
+    font-size: .5rem;
+    padding: 5px;
     margin: 10px 1px 1px 90px;
     border-radius: 4px;
   }
 
   li {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 
   .logo {
@@ -144,9 +152,8 @@ video {
 
   .contact-button button {
     color: rgb(250, 250, 250);
-    background: rgb(254, 179, 4);
-    font-size: 0.7rem;
-    padding: 1px;
+    font-size: 0.5rem;
+    padding: 5px;
     margin: 1rem;
     border-radius: 4px;
     border: 1px solid rgb(254, 179, 4);
@@ -173,7 +180,7 @@ video {
   }
 
   .main-info {
-    top: 17rem;
+    top: 13rem;
     margin: 0.1rem;
     padding: 1rem;
   }
@@ -183,18 +190,14 @@ video {
   }
 
   .main-info p {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
   }
 
   .main-info button {
-    font-size: 10px;
-    padding: 2px;
-    margin: 10px 1px 1px 90px;
+    font-size: 0.7rem;
+    padding: 5px;
+    margin: 10px 1px 1px 220px;
     border-radius: 4px;
-  }
-
-  li{
-    font-size: 1.7rem;
   }
 
   .logo{
@@ -204,9 +207,8 @@ video {
 
   .contact-button button {
     color: rgb(250, 250, 250);
-    background: rgb(254, 179, 4);
     font-size: 0.7rem;
-    padding: 1px;
+    padding: 5px;
     margin: 1rem;
     border-radius: 4px;
     border: 1px solid rgb(254, 179, 4);
@@ -237,4 +239,5 @@ video {
     left: 0 !important;
     height: auto !important;
   }
+  
 }
