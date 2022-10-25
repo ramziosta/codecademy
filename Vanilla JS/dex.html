@@ -4,10 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
 
   </head>
 
-  <body id="body" style="background-color:grey; color: white">
+  <body id="body" style="background-color:rgb(222, 222 , 222);
+  color: rgb(42, 42, 42);">
     <label for="firstName">First Name</label>
     <input type="text" id="firstName" name="firstName"  placeholder="first name" required />
     <br />
@@ -17,19 +19,23 @@
     <label for="email">Email</label>
     <input type = "email" id="email" name="email" placeholder="email" required />
    
-
         <p>Click the button to change the value of the text field.</p>
-        <h1 id="h">here</h1>
-        <h1 id="i">here</h1>
-        <h1 id="j">here</h1>
+        <p id="h">first name here</p>
+        <p id="i">last name here</p>
+        <p id="j">email here</p>
         
         <button onclick="submit()">Try it</button>
         <br />
-        <button id="dark" onclick="toggle()" style="font-size: 2rem; background:transparent; border:none;display: none">🌌</button>
-
-
-        <button id="light"  onclick="toggle()" style="font-size: 2rem; background:transparent; border:none; ">🌅</button>
+        <button id="dark" onclick="toggle()" style="font-size: 2rem; background:transparent; border:none;">🌌</button>
+        <button id="light"  onclick="toggle()" style="font-size: 2rem; background:transparent; border:none;display: none ">🌅</button>
         
+        <p>
+            <button onclick="showFortune()">Get Your Fortune</button>
+        </p>
+        
+        <div id="fortune"></div>
+
+
 
     <script src="./index.js">
       
