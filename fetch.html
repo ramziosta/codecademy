@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> This is soooo FETCH </title>
+    <style>
+        ul {
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+            
+          }
+       ul > li{ padding: 20px;
+        border: solid;
+        border: 14px 1px 0px 1px;
+        border-bottom: none;
+        border-color: black;
+      
+   
+}
+
+          #one, #two, #three{
+             display: none;  
+            background:green;
+            height: 100px;
+          }
+          li > div{
+            width: 100px;
+            border: solid black 4px;
+          }
+    </style>
+</head>
+
+<body>
+    <!-- we are going to make a simple webpage
+    // the user will input a nuber and we are going to capture the number
+    // then 'proess it' (aka make an api call) and maniplulate the DOM using
+     the info we get back from the api call -->
+
+     <h1> Enter a number to choose a Pokemon: </h1>
+     <input type="text" id="field" placeholder="Pick a number">
+     <br>
+     <button id="button"> FIND POKEMON!</button>
+     <p id="input"></p>
+     <hr />
+     <ul>
+        <li  class="li" id="tab1">Item One
+            
+        </li >
+        <li  class="li" id="tab2" >Item Two
+          
+        </li >
+        <li  class="li" id="tab3">Item Three
+            
+        </li>
+     </ul>
+     <div id="one">
+        Item one description
+    </div>
+    <div id="two">
+        Item two description
+    </div>
+    <div id="three">
+        Item three description
+    </div>
+     <script src="./fetch.js"></script>
+
+</body>
+
+
+
+</html>
